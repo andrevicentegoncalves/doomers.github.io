@@ -1,0 +1,201 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 1m;
+    font-family: 'MedievalSharp', Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+html,
+body{
+    width: 100%;
+    height: 100%;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+#h1_text{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0%;
+  text-align: center;
+  line-height: 400%;
+  background-color:black;
+  padding: 4% 0;
+  font-family: 'Bilbo', Arial, Helvetica, sans-serif;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+  font-size: 2.5vw;
+  line-height: 1vw;
+
+}
+
+h2{
+  font-size: 1.4vw;
+}
+
+.paralsec {
+  background-image: url("resources/images/the-four-tigers-of-the-apocalypse.jpg");
+  max-width: 100%;
+  height: auto;
+  }
+  
+  .paral {
+    min-height: 600px;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 50% 50%;
+    }
+  
+  /* Paragraph for Parallax Section */ 
+  .paral p {
+  font-size: 24px;
+  color:#f5f5f5;
+  text-align: center;
+  line-height: 60px;
+  }
+   
+  /* Heading for Parallax Section */ 
+  .paral {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 60px;
+  text-align: center;
+  padding-top: 60px;
+  line-height: 100px;
+  }
+  
+  /* Remove Bottom Margin from Jumbotron */
+  .jumbotron{margin-bottom: 0;}
+  
+  /* Footer */
+  .wn-footer {
+    padding: 2.5rem 0;
+    text-align: center;
+    color: white;
+    background-color: #607D8B;
+    border-top: .05rem solid #e5e5e5;
+    }
+     
+    .wn-footer a {
+    color: yellow;
+    }
+
+    .game_container {
+      display: grid;
+      grid-template-columns: auto auto;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #DCDCDC;
+    }
+  
+    #game_image{
+      max-width: 80%;
+      margin-left: 10%;
+    }
+  
+    #game_text{
+      text-align: center;
+      justify-content: center;
+      padding: 20% 0% ;
+      line-height: 200%;
+      margin-top: 20%;
+      font-size: 1.7vw;
+    }
+
+    .button {
+      font-family: 'MedievalSharp';
+      background-color: white;
+      border: none;
+      color: white;
+      padding: 1.5% 4%;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      margin: 2% 0;
+      cursor: pointer;
+    }
+  
+    .button-game {
+      color: black;
+      border: 2px solid black;
+    }
+  
+    .button-game-2{
+      color: black;
+      border: 2px solid black;
+      padding: 15% 20%;
+      line-height: 200%;
+      font-size: 1.5vw;
+      letter-spacing: 0.2em;
+    }
+  
+    #button_project{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    #footer{
+      clear: both; 
+    }
+  
+    .footer{
+      /* background-color: black; */
+
+      background-image: url(resources/images/footer.png);
+      display: flex;
+      color:#DCDCDC;
+      align-items: center;
+      justify-content: center;
+      margin-top: 3%;
+      text-align: center;
+      line-height: 300%;
+      padding: 6% 0;
+      font-size: 1.2vw;
+    }
+
+    .game {
+      display: grid;
+      grid-template-columns: auto auto;
+      padding: 3%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    #game_text{
+      text-align: center;
+      /* padding: 20% 10% ; */
+      line-height: 200%;
+    }
+
+    .download-container {
+      padding: 2% 0% ;
+      grid-template-columns: auto auto;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .game-screenshot-container {
+      padding: 2% 0% ;
+      grid-template-columns: auto auto;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
