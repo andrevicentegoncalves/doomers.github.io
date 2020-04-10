@@ -181,7 +181,11 @@ h2{
     #story_text{
       text-align: center;
       /* padding: 20% 10% ; */
+    }
+
+    #real-story{
       line-height: 200%;
+      font-size: 1.3vw;
     }
 
     .download-container{
@@ -202,5 +206,5 @@ h2{
 
     .story-main-text{
       text-align: center;
-      padding: 0 30%;
+      padding: 0 25%;
     }
