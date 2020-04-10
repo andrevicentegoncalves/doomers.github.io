@@ -45,7 +45,7 @@ body{
 }
 
 h2{
-  font-size: 1.4vw;
+  font-size: 2vw;
 }
 
 .paralsec {
@@ -159,7 +159,7 @@ h2{
 
       background-image: url(resources/images/footer.png);
       display: flex;
-      color:#DCDCDC;
+      color:#F5F5F5;
       align-items: center;
       justify-content: center;
       margin-top: 3%;
@@ -172,14 +172,18 @@ h2{
     .story {
       display: grid;
       grid-template-columns: auto auto;
-      padding: 3%;
+      padding: 5%;
+      margin: 2% 0%;
       display: flex;
       align-items: center;
       justify-content: center;
+      background-color:#F5F5F5;
+
     }
   
     #story_text{
       text-align: center;
+      padding: 0% 15%;
       /* padding: 20% 10% ; */
     }
 
@@ -207,4 +211,12 @@ h2{
     .story-main-text{
       text-align: center;
       padding: 0 25%;
+    }
+
+    #game-info-image{
+      max-width: 80%;
+    }
+
+    #game-image-screenshot{
+      max-width: 100%; 
     }
